@@ -1,10 +1,11 @@
-
-from jordFunctions import *
-
+import pytest
 
 
-def main():
+def identity(x):
+    return x 
+
+def test_main():
     assert identity(3) == 5
 
 if __name__ == '__main__':
-    main()
+    test_main()
