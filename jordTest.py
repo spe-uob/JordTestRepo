@@ -1,10 +1,10 @@
 
+from jordFunctions import *
 
-def identity(x):
-    return x 
 
-def test_answer():
+
+def main():
     assert identity(3) == 5
 
-
-test_answer()
+if __name__ == '__main__':
+    main()
